@@ -1,0 +1,29 @@
+/*
+** EPITECH PROJECT, 2019
+** my_swap
+** File description:
+** Task 01
+*/
+
+void my_putchar(char c){
+    write(1, &c, 1);
+}
+
+void my_swap(int *a, int *b){
+    int swap;
+    
+    swap = *a;
+    a = *b;
+    *b = swap;
+}
+
+int main(void){
+    int a = ;
+    int b = B;
+    my_putchar(a);
+    my_putchar(b);
+    my_swap(a, b);
+    my_putchar(a);
+    my_putchar(b);
+    return (0);
+}

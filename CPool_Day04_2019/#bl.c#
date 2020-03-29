@@ -1,0 +1,27 @@
+/*
+** EPITECH PROJECT, 2019
+** my_putstr
+** File description:
+** Task 02
+*/
+
+ '\0'){
+        my_putchar(str[i]);
+        i++;
+    }
+}
+
+int main (void){
+    char send[6];
+    int i;
+
+    i = 0;
+    send[0] = 'h';
+    send[1] = 'e';
+    send[2] = 'l';
+    send[3] = 'l';
+    send[4] = 'o';
+    send[5] = '\0';
+    my_putstr(&send);
+    return(0);
+}
